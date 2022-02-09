@@ -16,7 +16,7 @@ namespace Gestion_des_Vacataires
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Acceuil());
+            Application.Run(new Dashbord());
         }
     }
 }
