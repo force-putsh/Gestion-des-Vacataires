@@ -19,20 +19,27 @@ namespace Gestion_des_Vacataires
 
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
+        #region Paint Event
+        private void btnClose_Paint(object sender, PaintEventArgs e)
         {
-            this.Dispose();
+            RondButton((Button)sender, e);
+        }
+
+        private void btnLogin_Paint(object sender, PaintEventArgs e)
+        {
+            RondButton((Button)(sender), e);
         }
 
         private void btnFin_Paint(object sender, PaintEventArgs e)
         {
-            RondButton(btnFin, e);
+            RondButton((Button)(sender), e);
         }
 
         private void btnDebut_Paint(object sender, PaintEventArgs e)
         {
-            RondButton(btnDebut, e);
+            RondButton((Button)(sender), e);
         }
+        #endregion
 
         #region Mes Functions
         /// <summary>
@@ -58,14 +65,15 @@ namespace Gestion_des_Vacataires
         }
         #endregion
 
-        private void btnClose_Paint(object sender, PaintEventArgs e)
+        private void Acceuil_Load(object sender, EventArgs e)
         {
-            RondButton((Button)sender, e);
+
         }
 
-        private void btnLogin_Paint(object sender, PaintEventArgs e)
+        private void btnClose_Click(object sender, EventArgs e)
         {
-            RondButton((Button)(sender), e);
+            this.Dispose();
         }
+
     }
 }
