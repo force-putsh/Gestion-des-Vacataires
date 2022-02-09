@@ -1,6 +1,6 @@
 ﻿namespace Gestion_des_Vacataires
 {
-    partial class Form1
+    partial class Acceuil
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
