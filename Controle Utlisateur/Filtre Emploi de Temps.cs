@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Gestion_des_Vacataires.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,8 +23,10 @@ namespace Gestion_des_Vacataires.Controle_Utlisateur
             _dataGrid = dataGrid;
         }
 
-
-
-
+        private void btnOk_Click(object sender, EventArgs e)
+        {
+            InfoEmploiDeTemps emploiDeTemps = new InfoEmploiDeTemps();
+            emploiDeTemps.ShowEmploiDeTemps(_dataGrid,int.Parse(CbNom.Text));
+        }
     }
 }

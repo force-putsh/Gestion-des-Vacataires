@@ -29,6 +29,7 @@ namespace Gestion_des_Vacataires.Controle_Utlisateur
         private void btnSearch_Click(object sender, EventArgs e)
         {
             Filtre_Emploi_de_Temps filtre_Emploi_De_Temps = new Filtre_Emploi_de_Temps(dgvList);
+            filtre_Emploi_De_Temps.Dock = DockStyle.Fill;
             pFilter.Controls.Add(filtre_Emploi_De_Temps);
         }
     }

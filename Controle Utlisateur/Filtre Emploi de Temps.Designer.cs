@@ -28,22 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnOk = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.gbFilter = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.CbNom = new System.Windows.Forms.ComboBox();
             this.gbFilter.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // btnOk
             // 
-            this.button1.Location = new System.Drawing.Point(137, 116);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(146, 42);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Appliquer";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnOk.Location = new System.Drawing.Point(137, 116);
+            this.btnOk.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnOk.Name = "btnOk";
+            this.btnOk.Size = new System.Drawing.Size(146, 42);
+            this.btnOk.TabIndex = 0;
+            this.btnOk.Text = "Appliquer";
+            this.btnOk.UseVisualStyleBackColor = true;
+            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // label1
             // 
@@ -56,8 +57,8 @@
             // 
             // gbFilter
             // 
-            this.gbFilter.Controls.Add(this.comboBox1);
-            this.gbFilter.Controls.Add(this.button1);
+            this.gbFilter.Controls.Add(this.CbNom);
+            this.gbFilter.Controls.Add(this.btnOk);
             this.gbFilter.Controls.Add(this.label1);
             this.gbFilter.Location = new System.Drawing.Point(0, 3);
             this.gbFilter.Name = "gbFilter";
@@ -66,13 +67,16 @@
             this.gbFilter.TabStop = false;
             this.gbFilter.Text = "Filtrer";
             // 
-            // comboBox1
+            // CbNom
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(202, 69);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(190, 28);
-            this.comboBox1.TabIndex = 3;
+            this.CbNom.FormattingEnabled = true;
+            this.CbNom.Items.AddRange(new object[] {
+            "1",
+            "2"});
+            this.CbNom.Location = new System.Drawing.Point(202, 69);
+            this.CbNom.Name = "CbNom";
+            this.CbNom.Size = new System.Drawing.Size(190, 28);
+            this.CbNom.TabIndex = 3;
             // 
             // Filtre_Emploi_de_Temps
             // 
@@ -93,9 +97,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnOk;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox gbFilter;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox CbNom;
     }
 }
