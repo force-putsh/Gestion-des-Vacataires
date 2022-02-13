@@ -130,6 +130,12 @@
     <Compile Include="Acceuil.Designer.cs">
       <DependentUpon>Acceuil.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controle Utlisateur\Filtre Emploi de Temps.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controle Utlisateur\Filtre Emploi de Temps.Designer.cs">
+      <DependentUpon>Filtre Emploi de Temps.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controle Utlisateur\UCDashbord.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -150,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Acceuil.resx">
       <DependentUpon>Acceuil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controle Utlisateur\Filtre Emploi de Temps.resx">
+      <DependentUpon>Filtre Emploi de Temps.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controle Utlisateur\UCDashbord.resx">
       <DependentUpon>UCDashbord.cs</DependentUpon>

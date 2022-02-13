@@ -48,6 +48,14 @@ namespace Gestion_des_Vacataires.Data
                 foreach (var item in emploiDeTemps)
                     dataGrid.Rows.Add(item.cour, item.Enseignant, item.Date, item.HeureDebut, item.HeureFin);
         }
+
+        public InfoEmploiDeTemps GetEmploiDeTempsById(int Id)
+        {
+            string result = httpClient.GetStringAsync("EmploiDeTemps/"+Id).Result;
+            InfoEmploiDeTemps emploiDeTemps = JsonConvert.DeserializeObject<InfoEmploiDeTemps>(result);
+            return emploiDeTemps;
+        }
+
         #endregion
     }
 }
