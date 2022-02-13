@@ -1,0 +1,1 @@
+﻿"data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\Data\DbGestionnaireStagiaire.mdf;

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Gestion_des_Vacataires.Controle_Utlisateur;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace Gestion_des_Vacataires
         public Dashbord()
         {
             InitializeComponent();
+        }
+
+        private void Dashbord_Load(object sender, EventArgs e)
+        {
+            UCDashbord uCDashbord = new UCDashbord();
+            uCDashbord.Dock = DockStyle.Fill;
+            panel3.Controls.Add(uCDashbord);
         }
     }
 }

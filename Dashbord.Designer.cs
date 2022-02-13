@@ -29,24 +29,24 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.btnContrat = new System.Windows.Forms.Button();
+            this.btnEmploiDeTemps = new System.Windows.Forms.Button();
+            this.btnPointage = new System.Windows.Forms.Button();
+            this.btnVacataire = new System.Windows.Forms.Button();
+            this.btnDachbord = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.lbUser = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnLogout = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lbUser = new System.Windows.Forms.Label();
-            this.btnLogout = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.btnDachbord = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -62,6 +62,121 @@
             this.panel1.Size = new System.Drawing.Size(285, 737);
             this.panel1.TabIndex = 0;
             // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.btnContrat);
+            this.panel6.Controls.Add(this.btnEmploiDeTemps);
+            this.panel6.Controls.Add(this.btnPointage);
+            this.panel6.Controls.Add(this.btnVacataire);
+            this.panel6.Controls.Add(this.btnDachbord);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel6.ForeColor = System.Drawing.Color.White;
+            this.panel6.Location = new System.Drawing.Point(66, 266);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(219, 471);
+            this.panel6.TabIndex = 3;
+            // 
+            // btnContrat
+            // 
+            this.btnContrat.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnContrat.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnContrat.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnContrat.FlatAppearance.BorderSize = 0;
+            this.btnContrat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnContrat.Location = new System.Drawing.Point(0, 184);
+            this.btnContrat.Name = "btnContrat";
+            this.btnContrat.Size = new System.Drawing.Size(219, 46);
+            this.btnContrat.TabIndex = 2;
+            this.btnContrat.Text = "Contrat";
+            this.btnContrat.UseVisualStyleBackColor = false;
+            // 
+            // btnEmploiDeTemps
+            // 
+            this.btnEmploiDeTemps.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnEmploiDeTemps.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEmploiDeTemps.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEmploiDeTemps.FlatAppearance.BorderSize = 0;
+            this.btnEmploiDeTemps.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEmploiDeTemps.Location = new System.Drawing.Point(0, 138);
+            this.btnEmploiDeTemps.Name = "btnEmploiDeTemps";
+            this.btnEmploiDeTemps.Size = new System.Drawing.Size(219, 46);
+            this.btnEmploiDeTemps.TabIndex = 1;
+            this.btnEmploiDeTemps.Text = "Emploi de Temps";
+            this.btnEmploiDeTemps.UseVisualStyleBackColor = false;
+            // 
+            // btnPointage
+            // 
+            this.btnPointage.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnPointage.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPointage.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPointage.FlatAppearance.BorderSize = 0;
+            this.btnPointage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPointage.Location = new System.Drawing.Point(0, 92);
+            this.btnPointage.Name = "btnPointage";
+            this.btnPointage.Size = new System.Drawing.Size(219, 46);
+            this.btnPointage.TabIndex = 0;
+            this.btnPointage.Text = "Pointage";
+            this.btnPointage.UseVisualStyleBackColor = false;
+            // 
+            // btnVacataire
+            // 
+            this.btnVacataire.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnVacataire.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVacataire.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnVacataire.FlatAppearance.BorderSize = 0;
+            this.btnVacataire.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVacataire.Location = new System.Drawing.Point(0, 46);
+            this.btnVacataire.Name = "btnVacataire";
+            this.btnVacataire.Size = new System.Drawing.Size(219, 46);
+            this.btnVacataire.TabIndex = 0;
+            this.btnVacataire.Text = "Vacataire";
+            this.btnVacataire.UseVisualStyleBackColor = false;
+            // 
+            // btnDachbord
+            // 
+            this.btnDachbord.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnDachbord.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDachbord.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDachbord.FlatAppearance.BorderSize = 0;
+            this.btnDachbord.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDachbord.Location = new System.Drawing.Point(0, 0);
+            this.btnDachbord.Name = "btnDachbord";
+            this.btnDachbord.Size = new System.Drawing.Size(219, 46);
+            this.btnDachbord.TabIndex = 0;
+            this.btnDachbord.Text = "Dachbord";
+            this.btnDachbord.UseVisualStyleBackColor = false;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.lbUser);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 232);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(285, 34);
+            this.panel5.TabIndex = 2;
+            // 
+            // lbUser
+            // 
+            this.lbUser.AutoSize = true;
+            this.lbUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbUser.ForeColor = System.Drawing.Color.White;
+            this.lbUser.Location = new System.Drawing.Point(47, 5);
+            this.lbUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbUser.Name = "lbUser";
+            this.lbUser.Size = new System.Drawing.Size(177, 25);
+            this.lbUser.TabIndex = 1;
+            this.lbUser.Text = "Nom d\' utilisateur";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(285, 232);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.btnLogout);
@@ -71,6 +186,18 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(989, 83);
             this.panel2.TabIndex = 0;
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogout.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogout.Location = new System.Drawing.Point(898, 0);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(91, 83);
+            this.btnLogout.TabIndex = 0;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
@@ -90,133 +217,6 @@
             this.panel4.Size = new System.Drawing.Size(989, 72);
             this.panel4.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(285, 232);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // lbUser
-            // 
-            this.lbUser.AutoSize = true;
-            this.lbUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbUser.ForeColor = System.Drawing.Color.White;
-            this.lbUser.Location = new System.Drawing.Point(47, 5);
-            this.lbUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbUser.Name = "lbUser";
-            this.lbUser.Size = new System.Drawing.Size(177, 25);
-            this.lbUser.TabIndex = 1;
-            this.lbUser.Text = "Nom d\' utilisateur";
-            // 
-            // btnLogout
-            // 
-            this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogout.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogout.Location = new System.Drawing.Point(898, 0);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(91, 83);
-            this.btnLogout.TabIndex = 0;
-            this.btnLogout.Text = "Logout";
-            this.btnLogout.UseVisualStyleBackColor = true;
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.lbUser);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 232);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(285, 34);
-            this.panel5.TabIndex = 2;
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.button5);
-            this.panel6.Controls.Add(this.button4);
-            this.panel6.Controls.Add(this.button3);
-            this.panel6.Controls.Add(this.button2);
-            this.panel6.Controls.Add(this.btnDachbord);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel6.ForeColor = System.Drawing.Color.White;
-            this.panel6.Location = new System.Drawing.Point(66, 266);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(219, 471);
-            this.panel6.TabIndex = 3;
-            // 
-            // btnDachbord
-            // 
-            this.btnDachbord.BackColor = System.Drawing.Color.RoyalBlue;
-            this.btnDachbord.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDachbord.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDachbord.FlatAppearance.BorderSize = 0;
-            this.btnDachbord.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDachbord.Location = new System.Drawing.Point(0, 0);
-            this.btnDachbord.Name = "btnDachbord";
-            this.btnDachbord.Size = new System.Drawing.Size(219, 46);
-            this.btnDachbord.TabIndex = 0;
-            this.btnDachbord.Text = "Dachbord";
-            this.btnDachbord.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(0, 46);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(219, 46);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Vacataire";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(0, 92);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(219, 46);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "Pointage";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(0, 138);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(219, 46);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "button1";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(0, 184);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(219, 46);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "button1";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
             // Dashbord
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -234,12 +234,13 @@
             this.Name = "Dashbord";
             this.Text = "Dashbord";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Dashbord_Load);
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel6.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -256,9 +257,9 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button btnDachbord;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnContrat;
+        private System.Windows.Forms.Button btnEmploiDeTemps;
+        private System.Windows.Forms.Button btnPointage;
+        private System.Windows.Forms.Button btnVacataire;
     }
 }
