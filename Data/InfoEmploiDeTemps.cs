@@ -16,7 +16,7 @@ namespace Gestion_des_Vacataires.Data
 
         public InfoEmploiDeTemps()
         {
-            httpClient.BaseAddress = new Uri("https://localhost:44365/api/");
+            httpClient.BaseAddress = new Uri("https://localhost:5001/api/");
         }
 
         public string cour { get; set; }
