@@ -163,7 +163,7 @@
             this.lbUser.Location = new System.Drawing.Point(13, 5);
             this.lbUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbUser.Name = "lbUser";
-            this.lbUser.Size = new System.Drawing.Size(177, 25);
+            this.lbUser.Size = new System.Drawing.Size(222, 31);
             this.lbUser.TabIndex = 1;
             this.lbUser.Text = "Nom d\' utilisateur";
             // 
@@ -220,7 +220,7 @@
             // 
             // Dashbord
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1200, 701);
