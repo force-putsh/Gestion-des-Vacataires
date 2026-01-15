@@ -159,4 +159,3 @@
         private System.Windows.Forms.Label lbHeure;
     }
 }
-
